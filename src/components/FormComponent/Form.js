@@ -44,10 +44,12 @@ function Form() {
     let Email_error = document.getElementById("Email_error");
     if (!Email.checkValidity() || Email.value.length < 5) {
       Email.classList.add("error");
+      Email.placeholder = "email@example/com";
       Email_error.innerHTML = "Invalid Email\r\n";
       return true;
     } else {
       Email.classList.remove("error");
+      Email.placeholder = "Email Address";
       Email_error.innerHTML = "";
       return false;
     }
@@ -69,9 +71,7 @@ function Form() {
   };
 
   const checkSubmit = () => {
-    console.log(
-      !checkFirstName() && checkSecondName() && checkEmail() && checkPassword()
-    );
+    
     return (
       checkFirstName() && checkSecondName() && checkEmail() && checkPassword()
     );
