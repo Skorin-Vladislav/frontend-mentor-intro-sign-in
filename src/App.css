@@ -9,4 +9,15 @@
 body {
   font-size: 16px;
   font-family: "Poppins", sans-serif;
+  background: url("./img/bg-intro-mobile.png"), var(--red);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  min-height: 100vh;
 }
