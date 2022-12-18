@@ -1,15 +1,25 @@
-.ads-wrapper {
+.trial-wrapper {
   background-color: var(--blue);
+
   border-radius: 12px;
   padding: 1.5em;
   margin: 1em;
+  margin-top: 4em;
   -webkit-box-shadow: 0px 13px 8px 0px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 0px 13px 8px 0px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 13px 8px 0px rgba(0, 0, 0, 0.2);
 }
 
-.ads-wrapper p {
+.trial-wrapper p {
   max-width: 40ch;
   color: white;
-  margin: auto;
+  text-align: center;
+  min-width: 100%;
+}
+
+@media screen and (min-width: 900px) {
+  .trial-wrapper {
+    min-width: 80%;
+    max-width: 80%;
+  }
 }
