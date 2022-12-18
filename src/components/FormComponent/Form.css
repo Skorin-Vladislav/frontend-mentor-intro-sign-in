@@ -1,0 +1,68 @@
+.form-wrapper {
+  padding: 1em;
+  margin: 1em;
+  border-radius: 13px;
+  background: white;
+  -webkit-box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.2);
+}
+
+.form-wrapper input {
+  font-weight: 500;
+  font-size: 1.2em;
+  border-radius: 5px;
+  padding: 1em;
+  min-width: 100%;
+  border: solid 1px var(--grayish-blue);
+}
+
+.inputWrapper {
+  margin-bottom: 0.8em;
+}
+
+.terms-servises {
+  color: var(--grayish-blue);
+  font-size: 0.8em;
+  margin: 1em;
+  text-align: center;
+}
+
+.terms-servises a {
+  text-decoration: none;
+  color: var(--red);
+}
+
+.error {
+  background: #ffe6ee;
+  border: 2px solid var(--red) !important;
+}
+.error-msg {
+  color: #c12020;
+  font-weight: bold;
+}
+
+/* .icon {
+  background: url("../../img/icon-error.svg") no-repeat scroll 7px 7px;
+  padding-left: 30px;
+} */
+
+#FName_error {
+  text-align: right;
+  color: var(--red);
+}
+
+#LName_error {
+  text-align: right;
+  color: var(--red);
+}
+
+#Email_error {
+  text-align: right;
+  color: var(--red);
+}
+
+#Password_error {
+  text-align: right;
+  color: var(--red);
+}
