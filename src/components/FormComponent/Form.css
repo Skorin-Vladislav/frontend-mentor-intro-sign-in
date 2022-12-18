@@ -36,16 +36,13 @@
 .error {
   background: #ffe6ee;
   border: 2px solid var(--red) !important;
+  background: url("../../img/icon-error.svg") no-repeat;
+  background-position: 95%;
 }
 .error-msg {
   color: #c12020;
   font-weight: bold;
 }
-
-/* .icon {
-  background: url("../../img/icon-error.svg") no-repeat scroll 7px 7px;
-  padding-left: 30px;
-} */
 
 #FName_error {
   text-align: right;
