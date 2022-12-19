@@ -51,6 +51,19 @@ body {
     align-items: center;
   }
 
+  .heading-text {
+    font-size: 3em;
+    text-align: left;
+    margin-right: 0;
+    margin-left: 20%;
+  }
+
+  .sub-heading {
+    text-align: left;
+    margin-right: 0;
+    margin-left: 20%;
+  }
+
   .text {
     display: flex;
     flex-direction: column;
